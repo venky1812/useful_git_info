@@ -15,6 +15,9 @@ Includes info and useful commands
 >> ##### Guidelines For Commit Message:
 >> - The first line is a short, approximately 50 character summary,followed by an empty line.
 >> - The subsequent paragraphs arer jam-packed with descriptive information about the change.<br> This could include links to bugs and their descriptions.
+> -  **git commit -a** :A shortcut to stage any changes to tracked files and commit them in one step.(Note:This won't work with new files)
 > - **git log** : Displays history of commit messages.
+> - **git log -p**: The p flag list down the patches(changes/deletions/additions) that are done in each commits.
+> - **git log --stat** : stat flag gives the statistics of the commits.
 ***
 > ### Useful Links:
